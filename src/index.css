@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-welcome {
+  background-image: url('https://images.pexels.com/photos/3184423/pexels-photo-3184423.jpeg');
+}
+
+.bg-auth {
+  background-image: url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg');
+}
+
+.bg-dashboard {
+  background-image: url('https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg');
+}
+
+.bg-profile {
+  background-image: url('https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg');
+}
+
+.page-background {
+  @apply bg-cover bg-center bg-fixed;
+  @apply before:absolute before:inset-0 before:bg-black/40 before:z-0;
+  @apply relative;
+}
+
+.content-wrapper {
+  @apply relative z-10;
+}
